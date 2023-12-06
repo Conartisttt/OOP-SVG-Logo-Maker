@@ -5,11 +5,12 @@ const questions = require('./lib/questions')
 inquirer
   .prompt(questions)
   .then((response) =>
-    response.confirm === response.password
-      ? console.log('Success!')
-      : console.log('You forgot your password already?!')
+    writeFile()
   );
 
-fs.writeFile('logo.svg', data, (err) =>
-  err ? console.error(err) : console.log('Success!')
-);
+
+function writeFile(name, data) {
+  fs.writeFile(`${name}.svg`, data, (err) =>
+    err ? console.error(err) : console.log('Success!')
+  )
+};
