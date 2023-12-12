@@ -1,16 +1,11 @@
-const fs = require('fs');
 const inquirer = require('inquirer');
-const questions = require('./lib/questions')
+const questions = require('./lib/questions');
+const write = require('./lib/writeFile');
 
 inquirer
   .prompt(questions)
   .then((response) =>
-    writeFile()
+    write(response)
   );
 
 
-function writeFile(name, data) {
-  fs.writeFile(`${name}.svg`, data, (err) =>
-    err ? console.error(err) : console.log('Success!')
-  )
-};
