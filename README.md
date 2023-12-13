@@ -10,6 +10,8 @@
 <br>
 [Usage](#usage)
 <br>
+[Test](#test)
+<br>
 [Credits](#credits)
 
 ## Description
@@ -36,6 +38,9 @@ The following video demonstrates the applications functionality: [SVG Logo Maker
 * Run the application by opening terminal and using command: 
 ```node index.js```
 * Answer all prompts in your terminal and a custom SVG Logo will be created.
+
+## Test
+* To test this application, run ```npm test```
 
 ## Credits
 
