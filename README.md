@@ -16,7 +16,7 @@
 
 The purpose of the application is to allow freelance web developers to generate simple logos for their projects so that they don't have to pay graphic designers. Enter up to three characters, choose a text color, choose a shape (triangle, square, or circle), and a shape color. After all inputs have been entered, an SVG file will be created named `logo.svg`.
 
-The following video demonstrates the applications functionality: [SVG Logo Maker](link to google drive here)
+The following video demonstrates the applications functionality: [SVG Logo Maker](https://drive.google.com/file/d/1_1zV4E3HgwkbOYg6xKzVTeC6MAF89yx6/view)
 
 ## Technologies Used
 
